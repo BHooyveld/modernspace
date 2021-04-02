@@ -1,0 +1,55 @@
+.hiddenOnCollapsed {
+	display: block;
+}
+.showOnCollapsed {
+	display: none;
+}
+
+.collapsed {
+	.hiddenOnCollapsed {
+		display: none;
+	}
+	.showOnCollapsed {
+		display: block;
+	}
+}
+
+.collapse-toggle {
+	position: relative;
+	display: inline-block;
+	padding-right: 14px;
+	text-decoration: underline;
+	&:after {
+		content: "";
+		top: 8px;
+		right: 0;
+		position: absolute;
+		transition: all 0.35s;
+		margin-left: 0.25rem;
+		text-decoration: none;
+		white-space: nowrap;
+		width: 10px;
+		height: 10px;
+		background-image: url("./assets/images/icons/chevron-down.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		transform: rotate(180deg);
+	}
+	&.collapsed {
+		&:after {
+			transform: rotate(0deg);
+		}
+	}
+}
+
+.collapse-toggle--md {
+	@include media-breakpoint-up(md) {
+		display: none !important;
+	}
+}
+
+.collapse--md {
+	@include media-breakpoint-up(md) {
+		display: block !important;
+	}
+}

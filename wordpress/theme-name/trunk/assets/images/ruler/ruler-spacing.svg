@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="68px" viewBox="0 0 87 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ruler copy</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="87" height="68"></rect>
+    </defs>
+    <g id="🚩Final-design-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ruler-copy">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)" fill="#FFFFFF">
+                <polygon id="Fill-2" points="77.3913031 68.0555556 79.3885292 68.0555556 79.3885292 5.68434189e-14 77.3913031 5.68434189e-14"></polygon>
+                <polygon id="Fill-3" points="33.7404791 50.0392967 35.7377052 50.0392967 35.7377052 0.455963416 33.7404791 0.455963416"></polygon>
+                <polygon id="Fill-4" points="-7.04436509e-13 37.2222652 1.99722607 37.2222652 1.99722607 0.27782077 -7.04436509e-13 0.27782077"></polygon>
+                <polygon id="Fill-5" points="8.98204238 37.5276358 10.9792685 37.5276358 10.9792685 0.583191366 8.98204238 0.583191366"></polygon>
+                <polygon id="Fill-6" points="15.9680753 37.7651463 17.9653014 37.7651463 17.9653014 0.820701829 15.9680753 0.820701829"></polygon>
+                <polygon id="Fill-7" points="24.9849688 37.0988869 26.9821949 37.0988869 26.9821949 0.154442455 24.9849688 0.154442455"></polygon>
+                <polygon id="Fill-8" points="42.9490536 37.7096281 44.9462797 37.7096281 44.9462797 0.765183647 42.9490536 0.765183647"></polygon>
+                <polygon id="Fill-9" points="50.9679424 37.0094387 52.9651684 37.0094387 52.9651684 0.0649942064 50.9679424 0.0649942064"></polygon>
+                <polygon id="Fill-10" points="58.95198 37.2808792 60.9492061 37.2808792 60.9492061 0.336434736 58.95198 0.336434736"></polygon>
+                <polygon id="Fill-11" points="67.9340224 37.5862498 69.9312485 37.5862498 69.9312485 0.641805332 67.9340224 0.641805332"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

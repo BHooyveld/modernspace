@@ -1,0 +1,135 @@
+.skew {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: -1px;
+	height: 7vh;
+	@include media-breakpoint-up(sm) {
+		height: 15vh;
+	}
+
+	@include media-breakpoint-up(md) {
+		height: 25vh;
+	}
+	@include media-breakpoint-up(lg) {
+		height: 35vh;
+	}
+}
+
+.skew--top {
+	bottom: calc(100% - 1px);
+}
+
+.skew--at-top {
+	top: -1px;
+}
+
+.skew--rose-gold {
+	polygon {
+		fill: $rose-gold;
+	}
+}
+
+.skew--white {
+	polygon {
+		fill: $white;
+	}
+}
+
+.wp-block-group,
+section {
+	padding: 20px 0;
+	@include media-breakpoint-up(md) {
+		padding: 40px 0;
+	}
+	@include media-breakpoint-up(lg) {
+		padding: 80px 0;
+	}
+}
+
+.section--overlap {
+	margin-top: -5vh;
+	@include media-breakpoint-up(sm) {
+		margin-top: -10vh;
+	}
+	@include media-breakpoint-up(md) {
+		margin-top: -25vh;
+	}
+	@include media-breakpoint-up(lg) {
+		margin-top: -35vh;
+	}
+}
+
+.section--sm-overlap {
+	padding-top: 3vh;
+	@include media-breakpoint-up(sm) {
+		margin-top: -5vh;
+	}
+	@include media-breakpoint-up(md) {
+		margin-top: -15vh;
+	}
+	@include media-breakpoint-up(lg) {
+		margin-top: -25vh;
+	}
+}
+
+.section--xs-overlap {
+	padding-top: 20px;
+	@include media-breakpoint-up(sm) {
+		margin-top: -2vh;
+	}
+	@include media-breakpoint-up(md) {
+		margin-top: -10vh;
+	}
+	@include media-breakpoint-up(lg) {
+		margin-top: -10vh;
+	}
+}
+
+.section--underlap {
+	> div:last-of-type {
+		margin-bottom: -40px;
+		@include media-breakpoint-up(sm) {
+			margin-bottom: -3vh;
+		}
+		@include media-breakpoint-up(md) {
+			margin-bottom: -5vh;
+		}
+		@include media-breakpoint-up(lg) {
+			margin-bottom: -10vh;
+		}
+	}
+}
+
+.section--skew-at-top {
+	position: relative;
+	padding: 20px 0 20px 0;
+	> div:first-of-type {
+		margin-top: 0;
+	}
+	@include media-breakpoint-up(sm) {
+	}
+	@include media-breakpoint-up(md) {
+		padding: 0 0 40px 0;
+		> div:first-of-type {
+			margin-top: -5vh;
+		}
+	}
+	@include media-breakpoint-up(lg) {
+		padding: 0 0 80px 0;
+		> div:first-of-type {
+			margin-top: -5vh;
+		}
+	}
+}
+
+.section--spacing {
+	padding: 0;
+	height: 20px;
+	@include media-breakpoint-up(md) {
+		height: 2vh;
+	}
+	@include media-breakpoint-up(lg) {
+		height: 3vh;
+	}
+}

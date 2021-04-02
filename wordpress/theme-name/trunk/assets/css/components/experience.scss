@@ -1,0 +1,26 @@
+.experience {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.experience__content {
+  background-color: $white;
+  padding: 20px;
+  box-shadow: 0 20px 20px 0 rgba(205, 193, 185, 0.3);
+
+  @include media-breakpoint-up(md) {
+    padding: 40px;
+  }
+}
+
+.experience__image-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+  box-shadow: 0 20px 20px 0 rgba(139, 129, 121, 0.3);
+  > img {
+    max-width: 100%;
+  }
+}

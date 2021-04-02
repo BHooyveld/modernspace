@@ -1,0 +1,15 @@
+.our-way__image-wrapper {
+	position: relative;
+}
+
+.our-way__image {
+	max-width: 100%;
+	height: auto;
+}
+
+.content--overlap {
+	margin-bottom: 20px;
+	@include media-breakpoint-up(md) {
+		margin-bottom: -33.333%;
+	}
+}

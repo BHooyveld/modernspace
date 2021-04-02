@@ -1,0 +1,47 @@
+.bg-black {
+	color: $white;
+	background-color: $dark;
+}
+
+.bg-white {
+	color: $black;
+	background-color: $white;
+}
+
+.bg-dark {
+	color: $white;
+	background-color: $dark;
+}
+
+.bg-red {
+	color: $white;
+	background-color: $red;
+}
+
+.bg-rose-gold {
+	background-color: $rose-gold;
+}
+
+.red {
+	color: $red;
+}
+
+// Gutenberg color options
+// -- see editor-color-palette in functions.php
+$colors: (white, #ffffff), (black, #000000), ("dark-gray", $dark-grey),
+	(gray, $grey), ("light-gray", $light-grey), (red, $red),
+	("rose-gold", $rose-gold), ("light-blue", $light-blue), (green, $green),
+	("light-green", $light-green), ("vivid-red", $red);
+
+/* Color Options
+--------------------------------------------- */
+
+@each $name, $color in $colors {
+	.has-#{$name}-color {
+		color: $color;
+	}
+
+	.has-#{$name}-background-color {
+		background-color: $color;
+	}
+}

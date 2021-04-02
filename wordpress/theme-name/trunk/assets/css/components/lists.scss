@@ -1,0 +1,72 @@
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	li {
+		display: flex;
+		margin-bottom: 16px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.usps-list--hero {
+	margin: 80px 0 88px;
+}
+
+.list-with-icon--higher,
+.list-with-icon {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		padding-left: 50px;
+		padding-right: 20px;
+		position: relative;
+		min-height: 30px;
+		margin-bottom: 8px;
+	}
+
+	.list__icon {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: auto;
+		width: 30px;
+	}
+}
+
+.list-with-icon--higher {
+	li {
+		min-height: 40px;
+	}
+}
+
+.list--col-2 {
+	@include media-breakpoint-up(md) {
+		column-count: 2;
+		column-gap: 20px;
+	}
+}
+
+.list--col-2-wide {
+	> div {
+		break-inside: avoid;
+		padding-bottom: 30px;
+	}
+	@include media-breakpoint-up(md) {
+		column-count: 2;
+		column-gap: 60px;
+	}
+}
+
+.list-unstyled {
+	> li {
+		margin-bottom: 10px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

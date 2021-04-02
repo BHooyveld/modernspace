@@ -1,0 +1,118 @@
+// Color system
+
+$white: #ffffff;
+$black: #000000;
+$dark: #272727;
+
+$red: #f54241;
+$dark-grey: #272727;
+$grey: #8c8c8c;
+$light-grey: #c2c2c2;
+$warm-beige: #e0c7b6;
+$light-green: #c1dcc0;
+$light-green2: #e0eddf;
+$light-blue: #dfede8;
+
+$rose-gold: #efe3da;
+$footer-grey: #8d8c8c;
+$green: #3d543a;
+
+$spacer: 10px;
+$spacers: ();
+// stylelint-disable-next-line scss/dollar-variabl
+$spacers: map-merge(
+	(
+		0: 0,
+		s: (
+			$spacer * 0.5,
+		),
+		1: (
+			$spacer * 1,
+		),
+		2: (
+			$spacer * 2,
+		),
+		3: $spacer * 3,
+		4: (
+			$spacer * 4,
+		),
+		5: (
+			$spacer * 5,
+		),
+		6: (
+			$spacer * 6,
+		),
+		7: (
+			$spacer * 7,
+		),
+		12: (
+			$spacer * 12,
+		),
+	),
+	$spacers
+);
+
+$primary: $red;
+$secondary: $grey;
+
+$theme-colors: ();
+// stylelint-disable-next-line scss/dollar-variabl
+$theme-colors: map-merge(
+	(
+		"primary": $primary,
+		"secondary": $secondary,
+	),
+	$theme-colors
+);
+
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 400;
+$font-weight-bold: 500;
+$font-weight-bolder: 900;
+
+$font-weight-base: $font-weight-light;
+
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+
+$font-family-sans-serif: "Roboto Condensed", "Helvetica Neue", Arial,
+	"Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+	"Segoe UI Symbol", "Noto Color Emoji";
+$enable-responsive-font-sizes: false;
+
+$headings-margin-bottom: 0;
+$headings-font-weight: $font-weight-light;
+
+// Components
+//
+
+// Navbar
+
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+
+$input-btn-border-radius: 12px;
+$input-btn-padding-y: 1.125rem;
+$input-btn-padding-x: 2.5rem;
+$input-btn-border-width: 5px;
+
+// Cards
+
+// Forms
+$input-font-size: 18px;
+
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-padding-x: $grid-gutter-width;
+
+// Navs
+$nav-link-padding-y: 0.75rem;
+$nav-link-padding-x: 3rem;
+$navbar-nav-link-padding-x: 2rem;
+
+$navbar-light-color: $dark;
+$navbar-light-hover-color: $dark;
+$navbar-light-active-color: $dark;
